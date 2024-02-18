@@ -13,7 +13,7 @@ var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 var loginRouter = require('./routes/blog/login');
 var postRouter = require ('./routes/blog/posteos');
-var apiRouter = require('.routes/api');
+
 
 var app = express();
 
@@ -54,7 +54,6 @@ app.use('/users', usersRouter);
 app.use('/blog/login', loginRouter);
 app.use('/blog/posteos', postRouter);
 app.use('blog/login', secured, postRouter);
-app.use('/api',cors(), apiRouter);
 
 
 // catch 404 and forward to error handler
