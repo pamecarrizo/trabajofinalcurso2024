@@ -1,0 +1,55 @@
+<div class="rowpost">
+    <h2 class="text-end">Hola {{usuario}}</h2><a href="/blog/login/logout"><button type="button" class="salir">Cerrar sesión</button>
+    </a></p>
+</div>
+
+{{!-- fila 2 --}}
+
+<div class="rowpost">
+    <div class="col-7">
+        <h3>Posteos</h3>
+    </div>
+    <div class="col-5 text-end">
+        <a class="btn btn-sucess" href="/blog/posteos/agregar"><button type="button" class="nuevo">Nuevo</button></a>
+    </div>
+</div>
+
+{{!-- fila 3 --}}
+
+
+ <div class="rowpost">
+    <div class="col">
+      <table class="table">
+        <thead>
+          <tr class="table-pink">
+            <th class="col">N°</th>
+            <th class="col">Titulo</th>
+            <th class="col">Cuerpo</th>
+            <th class="text-end">Eliminar</th>
+          </tr>
+        </thead>
+        <tbody>
+        {{#each posteos}}
+            <tr>
+              <th scope="row">{{id}}</th>
+              <td>{{titulo}}</td>
+              <td>{{cuerpo}}</td>
+              <td class="text-center">
+                   <a
+                  href="/blog/posteos/eliminar/{{id}}"
+                  class="btn btn-sm btn-secondary"
+                  title="eliminar"
+                >
+                  <i class="bi bi-trash"></i></a>
+              </td>
+              
+            </tr>
+            
+          {{/each}}
+
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+</div>

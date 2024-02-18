@@ -1,0 +1,195 @@
+body {
+  position: relative;
+  min-height: 100vh;
+  padding-bottom: 20vh;
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Alegreya', serif;
+  font-weight: 500;
+  font-size: clamp(0.8em, 3vw, 2em);
+  color: rgb(83, 83, 83);
+}
+
+h2 {
+  font-family: 'Alegreya', serif;
+  font-size: clamp(1.5em, 4vw, 2.6em);
+  color: rgb(231, 40, 136);
+  text-shadow: 0 0 1px rgb(83, 83, 83);
+}
+
+h3 {
+  font-family: 'Alegreya', serif;
+  font-weight: 600;
+  font-variant: inherit;
+  font-size: clamp(1.2em, 4vw, 1.7em);
+  color: rgb(231, 40, 136);
+
+}
+
+p {
+  font-family: 'Alegreya', serif;
+  font-weight: lighter;
+  font-size: clamp(1em, 2vw, 1.2em);
+  color: rgb(83, 83, 83);
+}
+
+
+header {
+  position: static;
+  background-color: rgb(254, 223, 223);
+  height: 7vw;
+  padding: 0.3em 0.3em;
+}
+
+header img {
+  width: 17%;
+  padding: 5px 15px;
+}
+
+header h1 {
+  display: inline-block;
+  position: relative;
+  bottom: 0.5em;
+}
+
+footer {
+  margin-top: 1vh;
+  background-color: rgb(254, 223, 223);
+  height: 21vh;
+  width: 100%;
+  text-align: center;
+  box-shadow: 0px -1px 10px rgb(177, 177, 177);
+  position: absolute;
+  bottom: 0;
+  border-top: 2px solid rgba(231, 40, 135, 0.128);
+
+}
+
+footer p {
+  font-family: 'Alegreya', serif;
+  font-size: clamp(0.7em, 3vw, 1.1em);
+  color: rgb(83, 83, 83)
+}
+
+footer ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  list-style: none;
+  font-weight: 700;
+}
+
+footer ul li {
+  padding-left: 1vw;
+  padding-bottom: 1vw;
+}
+
+.social-icons{
+  margin: 0 auto;
+  width: 50%;
+}
+
+.social-icons ul li img {
+  width: 4.4vw;
+  min-width: 2.3em;
+  border-radius: 50%;
+}
+
+footer ul li img:hover {
+  transform: scale(1.2);
+  box-shadow: 2px 2px 5px rgba(244, 132, 188, 0.749);
+  transition: all 1s ease;
+}
+
+.row p {
+  margin-left: 10%;
+  min-width: 100px;
+  align-items: center;
+}
+.row h3{
+ margin-left: 10%;
+ font-size: clamp(1.2em, 3vw, 1.5em)
+}
+.row input {
+  display: flex;
+  align-items: center;
+  margin-left: 10%;
+  width: 50%;
+  background-color: rgb(255, 242, 226);
+  border-radius: 5px;
+  border: 1px solid rgb(240, 118, 140);
+  font-size: 1em;
+  padding: 0.5em 0.7em;
+  
+}
+
+button[type="submit"] {
+  font-size: clamp(1em, 3vw, 1.2em);
+  background-color: rgb(240, 118, 140);
+  box-shadow: 0 0 5px rgb(177, 177, 177);
+  color: rgb(255, 242, 226);
+  border: 0 solid transparent;
+  font-weight: bold;
+  width: fit-content;
+  height: 2em;
+  cursor: pointer;
+  margin-top: 3%;
+  margin-left: 45%;
+  border-radius: 5%;
+}
+
+button[type="submit"]:hover {
+  background-color: rgb(231, 40, 136);
+  transition: all 1s ease;
+}
+
+.rowpost h2{
+  margin-left:10vh;
+}
+.rowpost h3{
+  margin-left:10vh;
+}
+
+.rowpost button{
+  font-size: clamp(0.7em, 3vw, 1em);
+  background-color: rgb(240, 118, 140);
+  box-shadow: 0 0 5px rgb(177, 177, 177);
+  color: rgb(255, 242, 226);
+  border: 0 solid transparent;
+  font-weight: bold;
+  width: fit-content;
+  height: fit-content;
+  cursor: pointer;
+  margin-top: 3%;
+  margin-left: 75%;
+}
+
+.col{
+  background-color: rgb(254, 223, 223);
+  height:fit-content;
+  padding: 0.3em 0.3em;
+  margin-bottom: 20vh;
+  text-align: center;
+}
+
+.col th{
+  font-size: clamp(1.2em, 2vw, 1.4em);
+  color: rgb(83, 83, 83);
+  text-align: center;
+  border: 1px solid rgb(240, 118, 140);
+}
+
+.col td{
+  font-size: clamp(1em, 2vw, 1.2em);
+  color: rgb(83, 83, 83);
+  text-align: center;
+  border: 1px solid rgb(240, 118, 140);
+}
+
+.col i{
+  font-size: clamp(1em, 2vw, 1.2em);
+  color: rgb(83, 83, 83);
+  text-align: center;
+}

@@ -1,0 +1,60 @@
+.bienvenidos {
+    padding-left: clamp(1em, 1.2vw,2em);
+    padding-right: clamp(1em, 1.2vw,2em);
+    padding-bottom: clamp(1em, 1.2vw,2em);
+    width: 80%;
+    margin: 0 auto;
+    margin-top: clamp(1.5em, 2vw,3em);
+    margin-bottom: clamp(1.5em, 2vw,3em);
+    border: 2px solid rgba(231, 40, 135, 0.454);
+    border-radius: 10px;
+    box-shadow: 0px 1px 5px rgb(177, 177, 177)
+}
+.bienvenidos h2{
+    margin-left: 3%;
+}
+.bienvenidos h3{
+    margin-left: 55%;
+    font-size: clamp(1em, 2vw,1.3em);
+}
+
+.Recomendaciones{
+    margin-bottom: clamp(-10em,-6vw,-15em);
+    padding-bottom: 0;
+}
+.conteiner {
+    width: 100%;
+    height: fit-content;
+    margin: 0-auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.conteiner h3{
+    font-size: clamp(1.5em,5vh,1.9em);
+    background-color: rgb(254, 223, 223);
+    margin-top: clamp(2.5em, 2vw,5em);
+}
+
+.redimencionar p{
+    color: rgb(231, 40, 135);
+    font-weight: bolder;
+    font-size: (0.5em,0.3vw,1.3em);
+    padding-bottom: 1.2em;
+    border: none;
+}
+
+.swiper_conteiner{
+    margin-top:clamp(8em, 7vw,15em);;
+}
+.redimencionar img {
+    height: clamp(40vh, 45vw, 55vh);
+    object-fit: contain;
+}
+
+:root{--swiper-theme-color: rgb(231, 40, 135) !important}
+
+.swiper-button-prev, .swiper-button-next{
+    text-shadow: 0px -1px 5px rgb(177, 177, 177);
+}

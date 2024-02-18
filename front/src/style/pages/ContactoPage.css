@@ -1,0 +1,88 @@
+.contacto{
+    display:flex;
+    flex-wrap: wrap;
+    margin-bottom: 1em;
+    justify-content: center;
+}
+
+.parteizq{
+    width: 120vh;
+    
+}
+
+.parteizq h3{
+    display: flex;
+    justify-content: center;
+}
+
+.formulario p {
+    display: flex;
+    justify-content: center;
+}
+
+.formulario p label {
+    min-width: 100px;
+    align-items: center;
+}
+
+.formulario p input,
+.formulario p textarea {
+    width: 50%;
+}
+
+.formulario p input,
+.formulario p textarea {
+    background-color: rgb(255, 242, 226);
+    border-radius: 5px;
+    border: 1px solid rgb(240, 118, 140);
+    font-size: 1em;
+    padding: 0.5em 0.7em;
+}
+
+.formulario textarea {
+    height: 20vh;
+}
+
+.formulario input[type="submit"] {
+    background-color: rgb(240, 118, 140);
+    box-shadow: 0 0 5px rgb(177, 177, 177);
+    color: rgb(255, 242, 226);
+    font-weight: bold;
+    width: fit-content;
+    cursor: pointer;
+    margin-left: 55%;
+}
+
+.formulario input[type="submit"]:hover {
+    background-color: rgb(231, 40, 136);
+    transition: all 1s ease;
+}
+
+.parteder {
+    padding-left: 1em; 
+}
+.parteder .direccion ul{
+    padding-left: 0px;
+}
+
+.parteder .direccion ul li {
+    font-family: 'Alegreya', serif;
+    font-size: clamp(1em, 2vw, 1.2em);
+    font-style: inherit;
+    text-decoration: none;
+    text-align: left;
+    color: rgb(83, 83, 83);
+    list-style: none;
+
+}
+
+/* -------------Mapa------------------- */
+
+.mapa{
+width:clamp(330px,15vw,370px);
+height: clamp(330px,15vw,370px);
+box-shadow: 0 0 5px rgb(177, 177, 177);
+border-radius: 5%;
+padding-bottom: 2em;
+}
+

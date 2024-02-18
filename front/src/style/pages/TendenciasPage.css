@@ -1,0 +1,29 @@
+.holder_tendencias{
+    padding-bottom: 2%;
+}
+.holder_tendencias h2{
+    font-size: clamp(1.6em, 2.1vw,2em);
+    background-color: white;
+    text-shadow: 0  0 4px rgb(177, 177, 177);
+    text-decoration:underline;
+}
+
+.holder_tendencias h3{
+    background-color: rgba(254, 223, 223, 0.473);
+    font-size: clamp(1.2em,1.5vw,1.7em);
+    padding: 0.5em;
+}
+
+.img_conteiner{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.img_conteiner img{
+    height: clamp(3vh, 30vw, 37vh);
+    object-fit: contain;
+    border: 1px solid white;
+    box-shadow: 3px 3px 6px rgb(177, 177, 177);
+    padding: clamp(0.1em,0.3vw,0.5em);
+}
